@@ -7,7 +7,7 @@ a Ruby chess variant engine
 ```gem install shurikenengine```
 
 ### License
-Shuriken, a ruby chess variant engine
+Shuriken, a Ruby chess variant engine
 
 Shuriken is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
