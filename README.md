@@ -3,6 +3,12 @@
 ## Shuriken
 a Ruby chess variant engine
 
+### Variants
+- 10x8 caparandom
+- 10x8 capablanca
+- 10x8 falcon
+- 10x8 gothic chess
+
 ### Installation
 ```gem install shurikenengine```
 
