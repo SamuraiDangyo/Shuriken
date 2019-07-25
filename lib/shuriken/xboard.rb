@@ -10,7 +10,7 @@ class Xboard
 	def initialize(variant, random_mode = false)
 		@variant = variant
 		@random_mode = random_mode
-		@engine = Shuriken::EngineCaparandom.new(variant, random_mode)
+		@engine = Shuriken::EngineCaparandom.new(variant, random_mode: random_mode)
 		@movestogo_orig = 40
 		@forcemode = false
 		Signal.trap("SIGPIPE", "SYSTEM_DEFAULT") 
@@ -40,12 +40,12 @@ class Xboard
 	
 	def cmd_variant(variant)
 		@variant = variant
-		@engine = Shuriken::EngineCaparandom.new(@variant, @random_mode)
+		@engine = Shuriken::EngineCaparandom.new(@variant, random_mode: @random_mode)
 	end
 	
 	def cmd_new
 		@engine.history_reset
-		@engine = Shuriken::EngineCaparandom.new(@variant, @random_mode)
+		@engine = Shuriken::EngineCaparandom.new(@variant, random_mode: @random_mode)
 		@canmakemove = true
 	end
 	
