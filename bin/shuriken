@@ -1,5 +1,11 @@
 #!/usr/bin/env ruby
 
+##
+# Shuriken, a Ruby chess variant engine
+# Author: Toni Helminen
+# License: GPLv3
+##
+
 require 'shuriken'
 
 Shuriken.go
