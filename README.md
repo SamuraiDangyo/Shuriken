@@ -4,7 +4,7 @@
 a Ruby chess variant engine
 
 ### Installation
-gem install shurikenengine
+```gem install shurikenengine```
 
 ### License
 Shuriken, a ruby chess variant engine
