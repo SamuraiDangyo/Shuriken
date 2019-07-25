@@ -1,3 +1,5 @@
+![alt text](https://raw.githubusercontent.com/SamuraiDangyo/Shuriken/master/logo.jpg)
+
 ## Shuriken
 a Ruby chess variant engine
 
