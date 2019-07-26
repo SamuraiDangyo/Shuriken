@@ -36,9 +36,9 @@ module EvalCaparandom
 
 	def EvalCaparandom.init
 		return if EVAL_PST_MG.length > 0
-		7.times do |i|
+		8.times do |i|
 			arr = []
-			79.times do |j|
+			80.times do |j|
 				score = 0.1 * (MATERIAL_SCORE[i + 1] + 2 * CENTRAL_SCORE[i + 1] * (CENTRAL_BONUS_X[j % 10 ] + CENTRAL_BONUS_Y[j / 10]))
 				arr.push(score)
 			end
