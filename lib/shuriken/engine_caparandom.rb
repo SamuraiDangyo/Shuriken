@@ -190,7 +190,6 @@ class EngineCaparandom < Shuriken::Engine
 	end
 	
 	def stats(rounds = 10)
-		rounds = 6
 		@nodes = 0
 		@move_now = false
 		board = @board

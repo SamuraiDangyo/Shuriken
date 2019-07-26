@@ -48,7 +48,7 @@ $stderr.reopen("shuriken-error.txt", "a+")
 
 module Shuriken
 	NAME = "Shuriken"
-	VERSION = "0.31"
+	VERSION = "0.32"
 	AUTHOR = "Toni Helminen"
 
 	def Shuriken.init
