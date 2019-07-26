@@ -7,4 +7,7 @@
 *     + Supported: 10x8 caparandom + capablanca + falcon + gothic chess variants
 *     + Supported: Xboard protocol
 *
+*   - 0.32
+*     + Bug fixes
+*
 **/
