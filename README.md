@@ -1,29 +1,11 @@
 ![alt text](https://raw.githubusercontent.com/SamuraiDangyo/Shuriken/master/logo.jpg)
 
-## Shuriken
-a Ruby chess variant engine
+# Overview
+Shuriken, a Ruby chess variant engine
 
-### Variants
+## Variants
+Only XBoard support
 - 10x8 caparandom
 - 10x8 capablanca
 - 10x8 falcon
 - 10x8 gothic chess
-
-### Installation
-```gem install shurikenengine```
-
-### License
-Shuriken, a Ruby chess variant engine
-
-Shuriken is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-Shuriken is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
