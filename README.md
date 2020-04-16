@@ -4,7 +4,8 @@
 Shuriken, a Ruby chess variant engine
 
 ## Variants
-Only XBoard support
+Only XBoard supported
+
 - 10x8 caparandom
 - 10x8 capablanca
 - 10x8 falcon
